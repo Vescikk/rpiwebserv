@@ -1,0 +1,36 @@
+.section{
+    background: linear-gradient(90deg, #E9DEFA 0%, #FBFCDB 100%);  
+ 
+    &_col{
+        
+        height:100vh;  
+        &-1{
+            flex-grow: 4;
+            display: flex; 
+            flex-wrap: wrap;
+            flex-direction: row;
+
+            &_title{
+                width: 100%; 
+                height: 15%;
+                border-bottom: aqua 3px solid;  
+                align-self: flex-start;}
+                &_data{
+                    height: 75%;
+                    width: 70%;
+                }
+            &_sidebar{
+                height: 75%; 
+                width: 30%; 
+            } 
+            &_footer{
+                height: 10%; 
+ 
+                width: 100%; 
+                align-self: flex-end;
+            }
+        } 
+        &-2{flex-grow: 3;} 
+        &-3{flex-grow: 1; }  
+    }
+}
