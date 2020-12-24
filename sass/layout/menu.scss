@@ -1,0 +1,10 @@
+.section{
+    &_menu{
+        display: flex;
+        flex-direction: column;
+        text-align: center ;
+    }
+}
+.btn-impo{
+    align-self: flex-end;
+} 

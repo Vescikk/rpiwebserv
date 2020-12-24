@@ -9,13 +9,37 @@
 <body>
     <div class="section">
         <div class="section_col section_col-1">
-            <h1 class="section_col-1_title">RaspberryGUI</h1>
+            <h1 class="section_col-1_title">RaspberryGUI </h1>
             <div class="section_col-1_data">Temperatures:</div>
-            <div class="section_col-1_sidebar">Info</div> 
+            <div class="section_col-1_sidebar">
+                <span>Information about device</span>
+                <ul class="section_col-1_sidebar-info">
+                    <li>Device status: active</li>
+                    <li>Device name: raspberrypi</li>
+                    <li>Ip Adress:172.1.1</li>
+                    <li>Live-time: 12h</li>
+                    <li>SSH status: active</li>
+                </ul>
+            </div> 
             <div class="section_col-1_footer">Footer</div>  
         </div>
-        <div class="section_col section_col-2">Data</div>
-        <div class="section_col section_col-3">Menu</div>
+        <!-- <div class="section_col section_col-2">Data</div> -->
+        <div class="section_col section_col-3">
+            <ul class="section_menu">
+                <span>Chose Option</span> 
+
+                <button class="menu-button">Connect</button>
+                <button class="menu-button">Get data</button>
+                <button class="menu-button">Refresh</button>
+                <button class="menu-button">Get SSH</button>
+                <button class="menu-button">Get temps</button>
+                <button class="menu-button btn-impo">Turn Off</button>
+
+
+
+
+            </ul>
+        </div>
     </div>
 </body>
 </html>

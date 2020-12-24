@@ -8,3 +8,8 @@
     display: flex; 
     flex-direction: row;
 }
+button:active{border: none; outline: none;}
+button{
+    border: none;
+    outline: none ;
+}
